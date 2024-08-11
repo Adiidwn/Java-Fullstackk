@@ -1,0 +1,29 @@
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  gap: 1rem; 
+}
+
+.search-container .form-group {
+  flex: 1; 
+  margin: 0; 
+}
+
+.search-container .form-control {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .search-container {
+    flex-direction: column; 
+  }
+  
+  .search-container .form-group {
+    margin-bottom: 1rem; 
+  }
+  
+  .search-container .form-group:last-child {
+    margin-bottom: 0; 
+  }
+}

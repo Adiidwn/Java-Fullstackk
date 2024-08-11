@@ -1,0 +1,21 @@
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group label {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 0.5rem;
+  accent-color: #007bff; 
+}
+
+.checkbox-group input[type="checkbox"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
